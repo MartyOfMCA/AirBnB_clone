@@ -1,0 +1,47 @@
+.places .listings .amenities,
+.places .listings .reviews {
+        margin-top: 30px;
+}
+
+.places .listings .amenities h2,
+.places .listings .reviews h2 {
+        font-size: 16px;
+        text-align: left;
+        border-bottom: solid #DDDDDD 1px;
+}
+
+.places .listings ul {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+}
+
+.places .listings .amenities ul li {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+}
+
+.places .listings .amenities ul li:nth-child(1) div {
+        background-image: url('../images/icon_tv.png');
+}
+
+.places .listings .amenities ul li:nth-child(2) div {
+        background-image: url('../images/icon_wifi.png');
+}
+
+.places .listings .amenities ul li:nth-child(3) div {
+        background-image: url('../images/icon_pets.png');
+}
+
+.places .listings .amenities ul li div {
+        width: 20px;
+        aspect-ratio: 1;
+        background-size: contain;
+        background-repeat: no-repeat;
+}
+
+footer {
+        position: relative;
+}
