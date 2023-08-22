@@ -1,0 +1,20 @@
+* {
+        margin: 0;
+        padding: 0;
+        color:  #484848;
+        font-size: 14px;
+        font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        list-style: none;
+        box-sizing: border-box;
+}
+
+body {
+        height: 100%;
+        min-height: 100%;
+}
+
+.container {
+        width: clamp(500px, 90%, 1000px);
+        margin-block: 30px;
+        margin-inline: auto;
+}
