@@ -126,3 +126,14 @@
 footer {
         position: relative;
 }
+
+@media (max-width: 760px) {
+        .places .listings {
+                flex-wrap: nowrap;
+                flex-direction: column;
+        }
+
+        .places .listings article {
+                width: 100%;
+        }
+}
